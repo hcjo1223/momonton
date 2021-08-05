@@ -48,10 +48,7 @@ footer{
     width:100%
 }
 #greeting{
-    position: fixed;
-    left: 0; right: 20px; top: 0; 
-    font-size: large;
-    text-align: right;
+    text-align: center;
     color: whitesmoke;
 }
 #clock{
@@ -69,12 +66,12 @@ footer{
 #login-button{
     font-size: 12px;
     background-color: white;
-    border: 2px solid #e7e7e7;
+    border: 3px solid #e7e7e7;
     color: slategrey;
     text-align: center;
     transition: 0.3s;
     cursor: pointer;
-    padding: 8px 12px;
+    padding: 5px 12px;
 }
 #todo-form input{
     width: 300px;
@@ -97,7 +94,8 @@ footer{
     display: grid;
     grid-template-columns: 5fr 2fr;
     padding: 0 20px 0 20px;
-}
+    margin-bottom: 10px;
+}   
 #weather{
     font-size: medium;
     color: whitesmoke;
